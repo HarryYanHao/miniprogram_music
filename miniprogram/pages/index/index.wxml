@@ -1,1 +1,6 @@
 <list />
+<text>{{msg}}</text>
+<text>{{scan_res}}</text>
+<button bindtap='clickMe'>点击我</button>
+<button bindtap='scan'>scan</button>
+<map bindmarkertap="markertap" longitude= latitude= enable-overlooking="true" show-compass="true"></map>

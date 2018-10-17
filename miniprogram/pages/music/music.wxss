@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+.section__ctn{
+	text-align:center;
+	padding:80rpx 0rpx 50rpx 0rpx;
+}
+.music_name{
+	font-size:30rpx;  
+	font-family:Arial, Helvetica, sans-serif;  
+	font-weight:bold;
+	color:#CCCCCC; 
+}
+.nick_name{
+	font-size:30rpx;  
+	font-family:Arial, Helvetica, sans-serif;  
+	font-weight:bold;
+	color:#CCCCCC; 
+	margin:0rpx 20rpx;
+	position:relative;
+	top:16rpx;
+
+
+}
+.group{
+	margin:50rpx 0rpx;
+}
+.userInfo{
+  width:80rpx;
+  height:80rpx;
+  padding:0 20rpx;
+  position:block;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  border:none;
+  margin-top:5rpx;
+  float:left;
+
+}
+

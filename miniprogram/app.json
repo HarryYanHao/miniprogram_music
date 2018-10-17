@@ -1,11 +1,44 @@
 {
   "pages": [
-    "pages/index/index"
+  	"pages/music/music",
+    "pages/index/index",
+    "pages/logs/logs"
   ],
   "plugins": {
     "myPlugin": {
       "version": "dev",
       "provider": "wx2436b0aa41d95fd5"
     }
-  }
+  },
+   "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Music",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "iconPath": "assets/icon/home.png",
+      "selectedIconPath":"assets/icon/home.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/music/music",
+      "iconPath": "assets/icon/music.png",
+      "selectedIconPath":"assets/icon/music.png",
+      "text": "音乐"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "assets/icon/logs.png",
+      "selectedIconPath":"assets/icon/logs.png",
+      "text": "日志"
+    }
+
+	]
+  },
+  "requiredBackgroundModes": ["audio"]
+
 }

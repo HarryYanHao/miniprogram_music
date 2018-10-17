@@ -1,0 +1,28 @@
+<view class="page">
+<view style = "margin:0 20rpx;height:80rpx;">
+<button open-type='getUserInfo' class="userInfo" bindgetuserinfo="bindGetUserInfo" style="background-image:url({{avatar_url}});" plain='true' disabled="{{disable}}"></button>
+<text class='nick_name'>{{nick_name}}</text>
+</view>
+	<view class="page__bd">
+     	<view class="section__ctn">
+     		<image style="width: 400rpx; height: 400rpx; background-color: #eeeeee;" mode="{{mode}}" src="{{music_image}}"></image>
+     	<view>
+     		<text class='music_name'>{{music_name}}</text>
+     	</view>
+
+     	<view class="group">
+  			<block wx:for="{{music_icon}}">
+  				<view bindtap="{{item.event}}" style = "display:inline">
+    			<image style="width: 50rpx; height: 50rpx; margin:0rpx 50rpx" src="{{item.src}}" ></image>
+    			</view>
+  			</block>
+		</view>
+
+		</view>
+
+
+
+     </view>
+
+    
+</view>

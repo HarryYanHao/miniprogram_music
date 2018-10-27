@@ -1,0 +1,6 @@
+{
+
+  "usingComponents": {
+	"mlist": "/components/mlist/mlist"
+  }
+}

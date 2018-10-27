@@ -13,7 +13,7 @@
      	<view class="group">
   			<block wx:for="{{music_icon}}">
   				<view bindtap="{{item.event}}" style = "display:inline">
-    			<image style="width: 50rpx; height: 50rpx; margin:0rpx 50rpx" src="{{item.src}}" ></image>
+    			<image wx:if = "{{item.display}}" style="width: 50rpx; height: 50rpx; margin:0rpx 50rpx;" src="{{item.src}}" ></image>
     			</view>
   			</block>
 		</view>

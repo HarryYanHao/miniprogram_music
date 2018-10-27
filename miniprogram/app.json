@@ -1,6 +1,7 @@
 {
   "pages": [
   	"pages/music/music",
+  	"pages/list/list",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -13,7 +14,7 @@
    "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Music",
+    "navigationBarTitleText": "民谣电台",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -31,10 +32,10 @@
       "selectedIconPath":"assets/icon/music.png",
       "text": "音乐"
     }, {
-      "pagePath": "pages/logs/logs",
-      "iconPath": "assets/icon/logs.png",
-      "selectedIconPath":"assets/icon/logs.png",
-      "text": "日志"
+      "pagePath": "pages/list/list",
+      "iconPath": "assets/icon/list.png",
+      "selectedIconPath":"assets/icon/list.png",
+      "text": "列表"
     }
 
 	]

@@ -1,0 +1,31 @@
+/* pages/index/index.wxss */
+@import "../../assets/wxss/we_ui.wxss";
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+
+.weui-navbar__slider{
+	background-color:#999;
+}
+.weui-navbar__item{
+	font-family:Arial, Helvetica, sans-serif;  
+	color:#707070
+}
+.weui-navbar{
+	z-index: 999
+}
+.refresh-block{
+	text-align:center
+}
+.weui-tab__panel{
+	overflow:visible
+}
+.weui-navbar{
+	weight:50px;
+	height:50px
+}

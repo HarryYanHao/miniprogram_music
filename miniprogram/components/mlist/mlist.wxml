@@ -1,0 +1,18 @@
+<!--components/mlist/mlist.wxml-->
+<scroll-view scroll-x bindscrolltolower="itemScrollLower" bindscrolltoupper="itemScrollUpper" class="page {{show?'true':'hidden'}}"  style="width:100%">
+	<view class="weui-cells weui-cells_after-title" style="height:{{itemHeight}}px;width:{{width+80}}px" bindtap="tapPlay" data-id = "{{songId}}">
+		<view class="weui-cell" style="width: {{width-20}}px">
+			<view class="weui-cell__hd">
+			<image src="{{image_url}}" style="margin-right: 5px;vertical-align: middle;width:120rpx; height: 120rpx;" class = "music_image"></image>
+			</view>
+		<view class = "weui-cell__bd" style="margin-left:20rpx">
+		<view class = "music_info">{{music_name}}</view>
+		<view class = "music_info">{{album}}</view>
+		</view>
+		<view wx:if="{{icon_hidden}}" class="weui-cell__ft">{{author}}</view>
+		<view wx:if="{{!icon_hidden}}" class="item_icon">
+     		<image style="width: 50rpx; height: 50rpx; background-color: #FFFFF;" src="../../assets/icon/cancel.png" bindtap="cancel" data-id = "{{songId}}"></image>
+     	</view>
+	</view>
+</view>
+</scroll-view>
